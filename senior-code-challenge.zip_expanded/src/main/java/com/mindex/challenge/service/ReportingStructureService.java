@@ -6,5 +6,5 @@ import com.mindex.challenge.data.ReportingStructure;
 
 
 public interface ReportingStructureService {	 
-	 ReportingStructure read(String id) throws Exception;
+	 ReportingStructure read(String id) throws Exception;	 
 }

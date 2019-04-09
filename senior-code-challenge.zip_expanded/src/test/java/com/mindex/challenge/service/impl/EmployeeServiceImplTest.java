@@ -79,5 +79,5 @@ public class EmployeeServiceImplTest {
         assertEquals(expected.getLastName(), actual.getLastName());
         assertEquals(expected.getDepartment(), actual.getDepartment());
         assertEquals(expected.getPosition(), actual.getPosition());
-    }
+    }    
 }

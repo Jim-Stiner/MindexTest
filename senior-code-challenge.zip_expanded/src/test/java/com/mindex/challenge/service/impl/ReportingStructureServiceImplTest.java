@@ -98,7 +98,6 @@ public class ReportingStructureServiceImplTest {
 		assertEquals(reportingstructure1.getEmployee().getEmployeeId(),
 				reportingstructure.getEmployee().getEmployeeId());
 		assertEquals(reportingstructure1.getNumberOfReports(), reportingstructure.getNumberOfReports());
-
 	}
 
 	private static void assertEmployeeEquivalence(Employee expected, Employee actual) {

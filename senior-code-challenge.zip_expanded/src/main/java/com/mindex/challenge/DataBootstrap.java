@@ -26,7 +26,6 @@ public class DataBootstrap {
     @Autowired
     private CompensationRepository compensationRepository;
     
-
     @Autowired
     private ObjectMapper objectMapper;
 

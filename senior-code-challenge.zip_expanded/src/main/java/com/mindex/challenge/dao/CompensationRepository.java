@@ -1,6 +1,5 @@
 package com.mindex.challenge.dao;
 
-import java.util.List;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.data.mongodb.repository.MongoRepository;

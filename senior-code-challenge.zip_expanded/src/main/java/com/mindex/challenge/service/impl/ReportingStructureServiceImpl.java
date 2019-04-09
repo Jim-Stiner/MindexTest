@@ -21,7 +21,7 @@ public class ReportingStructureServiceImpl implements ReportingStructureService 
 
 	@Autowired
 	private EmployeeRepository employeeRepository;
-
+	
 	private Employee buildDirectReport(Employee employee) {
 
 		// populate direct report list

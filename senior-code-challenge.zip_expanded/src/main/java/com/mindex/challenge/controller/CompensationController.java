@@ -25,8 +25,7 @@ public class CompensationController {
 
 	   // post to create a compensation object and store in repo
 	   // Payload = Compensation
-	   // Response = Compensation
-	    
+	   // Response = Compensation	    
 	    @PostMapping("/compensation")
 	    public Compensation create(@RequestBody Compensation comp) {
 	        LOG.debug("Received Compensation create request for [{}]", comp);

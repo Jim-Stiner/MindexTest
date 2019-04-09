@@ -12,5 +12,4 @@ public class ChallengeApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

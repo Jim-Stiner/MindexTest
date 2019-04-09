@@ -17,7 +17,6 @@ public class EmployeeController {
     @PostMapping("/employee")
     public Employee create(@RequestBody Employee employee) {
         LOG.debug("Received employee create request for [{}]", employee);
-
         return employeeService.create(employee);
     }
 

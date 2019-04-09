@@ -21,6 +21,4 @@ public class ReportingStructure{
 		this.employee = employee;
 	}
 	
-	
-	
 }

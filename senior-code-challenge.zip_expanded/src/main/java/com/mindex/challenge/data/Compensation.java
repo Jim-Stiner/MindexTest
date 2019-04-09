@@ -8,7 +8,6 @@ public class Compensation {
 	private String	salary;	
 	private Employee employee;
 	
-	
 	public Employee getEmployee() {
 		return employee;
 	}

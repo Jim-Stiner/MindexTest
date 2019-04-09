@@ -23,8 +23,7 @@ public class CompensationServiceImpl implements CompensationService {
 	
 	 @Autowired
 	    private CompensationRepository compensationRepository;
-	 
-	 
+	 	 
 	@Override
 	public Compensation create(Compensation compensation) {
 		// gets employee object from compensation object

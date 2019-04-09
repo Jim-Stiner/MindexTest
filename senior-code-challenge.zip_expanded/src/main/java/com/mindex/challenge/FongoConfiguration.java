@@ -22,5 +22,4 @@ public class FongoConfiguration extends AbstractMongoConfiguration {
     public Mongo mongo() throws Exception {
         return new Fongo("mongo-test").getMongo();
     }
-
 }

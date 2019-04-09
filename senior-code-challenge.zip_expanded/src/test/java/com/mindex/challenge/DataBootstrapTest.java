@@ -35,5 +35,5 @@ public class DataBootstrapTest {
         assertEquals("Lennon", employee.getLastName());
         assertEquals("Development Manager", employee.getPosition());
         assertEquals("Engineering", employee.getDepartment());
-    }
+    }    
 }
